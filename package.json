@@ -1,0 +1,54 @@
+{
+  "name": "@wmfs/tymless",
+  "version": "0.0.0-semantically-released",
+  "description": "A lighter way to enjoy Tymly.",
+  "author": "West Midlands Fire Service",
+  "homepage": "https://github.com/wmfs/tymless#readme",
+  "keywords": [
+    "tymly",
+    "package"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wmfs/tymless.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wmfs/tymless/issues"
+  },
+  "main": "./lib/index.js",
+  "bin": {
+    "tymless": "bin/tymless-cli.js"
+  },
+  "dependencies": {
+    "chalk": "2.4.2",
+    "chokidar": "2.1.5",
+    "commander": "2.20.0",
+    "jsonfile": "5.0.0",
+    "p-retry": "4.1.0"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "3.0.2",
+    "@semantic-release/git": "7.0.8",
+    "@wmfs/tymly-pg-plugin": "1.118.2",
+    "chai": "4.2.0",
+    "codecov": "3.1.0",
+    "conventional-changelog-metahub": "2.0.2",
+    "cz-conventional-changelog": "2.1.0",
+    "mocha": "5.2.0",
+    "nyc": "13.2.0",
+    "semantic-release": "15.13.3",
+    "standard": "12.0.1"
+  },
+  "scripts": {
+    "start:dev": "node ./scripts/start.js --port 1234"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
