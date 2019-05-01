@@ -27,7 +27,7 @@ $ npm test
 ## Starting
 
 ```bash
-$ npm run start
+$ npm run start:dev
 ```
 
 ## <a name="license"></a>License
