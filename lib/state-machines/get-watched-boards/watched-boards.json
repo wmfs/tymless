@@ -1,0 +1,140 @@
+{
+  "executionName": "tymly_getWatchedBoards_1_0-fc326960-7af1-11e9-b789-372c1da1f546-3",
+  "ctx": {
+    "watchCategories": {
+      "gazetteer": {
+        "Gazetteer": {
+          "total": 1,
+          "subscriptions": [
+            {
+              "subscriptionId": "6323abc8-35bc-11e9-b518-506b8dcf6057",
+              "feedName": "wmfs_viewProperty_1_0|10090434308",
+              "title": "West Midlands Fire Service, 99 Vauxhall Road, Birmingham, B7 4HW",
+              "description": "West Midlands Fire Service, 99 Vauxhall Road, Birmingham, B7 4HW",
+              "startedWatching": "2019-02-21T09:38:04.487Z",
+              "launches": [
+                {
+                  "input": {
+                    "boardKeys": {
+                      "uprn": 10090434308
+                    },
+                    "subscriptionId": "6323abc8-35bc-11e9-b518-506b8dcf6057"
+                  },
+                  "stateMachineName": "wmfs_viewProperty_1_0"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "incidents": {
+        "": {
+          "total": 1,
+          "subscriptions": [
+            {
+              "subscriptionId": "ea3883c0-5139-11e9-b8f4-506b8dcf6057",
+              "feedName": "wmfs_getIncidentSummary_1_0|19742|2019",
+              "title": "Incident 19742/2019",
+              "description": "",
+              "startedWatching": "2019-03-28T09:14:39.566Z",
+              "launches": [
+                {
+                  "input": {
+                    "boardKeys": {
+                      "incidentYear": 2019,
+                      "incidentNumber": "19742"
+                    },
+                    "subscriptionId": "ea3883c0-5139-11e9-b8f4-506b8dcf6057"
+                  },
+                  "stateMachineName": "wmfs_getIncidentSummary_1_0"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "prevention": {
+        "Prevention": {
+          "total": 3,
+          "subscriptions": [
+            {
+              "subscriptionId": "c0d05824-5601-11e9-80c9-506b8dcf6057",
+              "feedName": "wmfs_viewSafeAndWellReferral_1_0|MxkWmmt2z7",
+              "title": "View Safe and Well Referral #MxkWmmt2z7",
+              "description": "92 Longwood Road, Walsall, WS9 0TD",
+              "startedWatching": "2019-04-03T11:15:14.124Z",
+              "launches": [
+                {
+                  "input": {
+                    "boardKeys": {
+                      "sawReportId": "MxkWmmt2z7"
+                    },
+                    "subscriptionId": "c0d05824-5601-11e9-80c9-506b8dcf6057"
+                  },
+                  "stateMachineName": "wmfs_viewSafeAndWellReferral_1_0"
+                }
+              ]
+            },
+            {
+              "subscriptionId": "ee66c296-56d8-11e9-a1b7-506b8dcf6057",
+              "feedName": "wmfs_viewSafeAndWellReferral_1_0|QPFHDzwW1n",
+              "title": "View Safe and Well Referral #QPFHDzwW1n",
+              "description": "Cavendish Kebab, 32 Stenson Road, Derby, DE23 1JB",
+              "startedWatching": "2019-04-04T12:55:32.413Z",
+              "launches": [
+                {
+                  "input": {
+                    "boardKeys": {
+                      "sawReportId": "QPFHDzwW1n"
+                    },
+                    "subscriptionId": "ee66c296-56d8-11e9-a1b7-506b8dcf6057"
+                  },
+                  "stateMachineName": "wmfs_viewSafeAndWellReferral_1_0"
+                }
+              ]
+            },
+            {
+              "subscriptionId": "25fa9462-6016-11e9-a9c3-506b8dcf6057",
+              "feedName": "wmfs_viewSafeAndWellReferral_1_0|NdHZ0lOtoa",
+              "title": "View Safe and Well Referral #NdHZ0lOtoa",
+              "description": "Proposed Pole Mounted Transformer, Cresswell Lane, Draycott In The Moors",
+              "startedWatching": "2019-04-16T07:06:25.401Z",
+              "launches": [
+                {
+                  "input": {
+                    "boardKeys": {
+                      "sawReportId": "NdHZ0lOtoa"
+                    },
+                    "subscriptionId": "25fa9462-6016-11e9-a9c3-506b8dcf6057"
+                  },
+                  "stateMachineName": "wmfs_viewSafeAndWellReferral_1_0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "currentStateName": "GetWatchedBoards",
+  "currentResource": "module:getWatchedBoards",
+  "stateMachineName": "tymly_getWatchedBoards_1_0",
+  "status": "SUCCEEDED",
+  "executionOptions": {
+    "instigatingClient": {
+      "appName": "tymly-frontend-dev",
+      "domain": ""
+    },
+    "sendResponse": "COMPLETE",
+    "action": "startExecution",
+    "stateMachineName": "tymly_getWatchedBoards_1_0",
+    "userId": "ad|WMFS|bfce8333-76fd-4f69-a9a3-db848f4b5b0d",
+    "error": null
+  },
+  "parentExecution": null,
+  "childCount": null,
+  "created": "2019-05-20T11:25:35.260Z",
+  "createdBy": "tymly.test@wmfs.net",
+  "modified": "2019-05-20T11:25:35.260Z",
+  "modifiedBy": null
+}
