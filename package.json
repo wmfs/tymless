@@ -35,7 +35,7 @@
     "@semantic-release/git": "7.0.18",
     "@wmfs/tymly-pg-plugin": "1.137.0",
     "chai": "4.2.0",
-    "codecov": "3.6.5",
+    "codecov": "3.7.1",
     "conventional-changelog-metahub": "3.0.0",
     "cz-conventional-changelog": "3.0.2",
     "mocha": "6.2.2",
